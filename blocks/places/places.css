@@ -1,0 +1,30 @@
+.places{
+    box-sizing:border-box;
+    max-width: 1015px;
+    margin: 0 auto;
+    padding-top: 64px;
+    display: grid;
+    grid-row-gap:80px;
+}
+
+
+@media screen and (max-width:767px) {
+    .places{
+        max-width: 720px;
+        grid-row-gap:73px;
+        padding-top: 72px;
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+    .places{
+        display: flex;
+        max-width: 320px;
+        flex-direction: column;
+        padding-top: 64px;
+        grid-row-gap:0;
+        padding-bottom: 62px;
+    }
+}

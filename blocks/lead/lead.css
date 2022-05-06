@@ -1,0 +1,34 @@
+.lead{
+    padding-top: 56px;
+    margin:0 auto;
+    max-width: 984px;
+    height: 1005px;
+    text-align: center;
+}
+
+@media screen and (max-width:1023px) {
+
+    .lead{
+        padding-top: 48px;
+        max-width: 928px;
+        height: 962px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .lead{
+        padding-top: 48px;
+        max-width: 768px;
+        height: 862px;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .lead{
+        padding-top: 48px;
+        max-width: 320px;
+        height: 406px;
+    }
+}

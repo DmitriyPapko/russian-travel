@@ -1,0 +1,19 @@
+.website{
+    margin: 0;
+    grid-area: website;
+    width: max-content;    
+    height: min-content;
+    align-self: end;
+}
+
+
+@media screen and (max-width:320px) {
+    .website{
+        width: 288px;
+        height: 46px;
+        align-self: normal;
+        margin: 0;
+        order: 2;
+        padding-left: 16px;
+    }
+}
