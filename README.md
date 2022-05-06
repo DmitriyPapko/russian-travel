@@ -15,9 +15,11 @@
 * CSS Grid
 * CSS Flex-box
 * БЭМ методология
-*  Директива @media 
+* Директива @media 
 
 
 **Ссылка на GitHub Pages**
+
+* https://dmitriypapko.github.io/russian-travel/
 
 
