@@ -1,23 +1,23 @@
+
 .page{
-    min-width: 1025px;
+    min-width: 320px;
     max-width: 1280px;
-    background-color: #2A2C2F;
     margin: 0 auto;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", 'Cairo', sans-serif;
 }
 
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1024px) {
     .page{
-        min-width: 769px;
+        min-width: 768px;
         max-width: 1024px;
     }
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     .page{
         max-width: 768px;
-        min-width: 321px;
+        min-width: 320px;
     }
 }
 

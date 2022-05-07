@@ -8,6 +8,9 @@
     color: #FFFFFF;
     margin: 0;
 }
+.footer__link:hover{
+    opacity: 0.8;
+}
 
 @media screen and (width:320px) {
     .footer__link{
