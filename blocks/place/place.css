@@ -16,9 +16,7 @@
 
 @media screen and (max-width:1024px){
     .place{
-        box-sizing: border-box;
-        max-width: 928px;
-        margin: 0 auto;
+        max-width: 90.7vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
@@ -33,9 +31,7 @@
 
 @media screen and (max-width:768px){
     .place{
-        box-sizing: border-box;
-        max-width: 720px;
-        margin: 0 auto;
+        max-width: 95.2vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:

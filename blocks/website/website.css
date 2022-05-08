@@ -10,7 +10,6 @@
 @media screen and (max-width:320px) {
     .website{
         width: 288px;
-        height: 46px;
         align-self: normal;
         margin: 0;
         order: 2;
