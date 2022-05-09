@@ -12,10 +12,23 @@
 
 
 @media screen and (max-width:768px) {
-    .place__paragraph{
-        font-size: 16px;
-        order: 4;
+    .place__paragraph:first-child{
         padding-bottom: 25px;
-    }
-    
+     }
 }
+
+@media screen and (max-width:434px) {
+    .place__paragraph{
+        font-size: 1vh;
+    }
+}
+
+
+@media screen and (max-width:330px) {
+    .place__paragraph{
+        font-size: 18px;
+    }
+}
+
+
+

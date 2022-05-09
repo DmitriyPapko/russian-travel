@@ -6,8 +6,19 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     margin: 0;
-    letter-spacing: 2px;
 }
 .website__link:hover{
     opacity: 0.8;
+}
+
+@media screen and (max-width:434px) {
+    .website__link{
+        font-size: 1vh;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .website__link{
+        font-size: 18px;
+    }
 }

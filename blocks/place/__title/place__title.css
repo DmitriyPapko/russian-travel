@@ -18,14 +18,12 @@
 
 
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:330px) {
     .place__title{
         font-size: 32px;
         line-height: 35px;
         text-align: left;
-        order: 1;
-        padding-left: 16px;
-        padding-bottom: 32px;
-        padding-top: 32px;
+        padding-left: 16px;  
     }
+    
 }

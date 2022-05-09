@@ -2,7 +2,7 @@
     box-sizing:border-box;
     max-width: 1015px;
     margin: 0 auto;
-    padding-top: 64px;
+    padding-top: 92px;
     display: grid;
     grid-row-gap:80px;
 }
@@ -18,17 +18,17 @@
     .places{
         max-width:93.8vw;
         grid-row-gap:73px;
-        padding-top: 88px;
+        padding-top: 92px;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:330px) {
     .places{
         display: flex;
         max-width: 320px;
         flex-direction: column;
         padding-top: 64px;
-        grid-row-gap:0;
-        padding-bottom: 62px;
+        grid-row-gap:50;
+        padding-bottom: 66px;
     }
 }

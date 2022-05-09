@@ -3,20 +3,28 @@
     padding-bottom: 24px;
     margin: 0 auto;
     max-width: 1184px;
-    max-height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 @media screen and (max-width:1024px) {
     .footer{
         max-width: 928px;
-        max-height: 18px;
+    }
+}
+@media screen and (max-width:608px) {
+    .footer{
+        flex-wrap: wrap;
     }
 }
 
-
-
 @media screen and (max-width:320px) {
     .footer{
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 64px;
         max-width: 320px;
         max-height: 400px;
     }
