@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width:330px) {
+@media screen and (max-width:345px) {
     .place__container {
         max-width: 288px;
         margin: 0 auto;
