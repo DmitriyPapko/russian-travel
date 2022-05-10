@@ -1,4 +1,4 @@
-.footer__copyright{
+.footer__copyright {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -7,21 +7,17 @@
     color: #FFFFFF;
     margin: 0;
     display: block;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-
-
-
 @media screen and (max-width:768px) {
-    .footer__copyright{
+    .footer__copyright {
         padding-right: 24px;
     }
 }
 
-
 @media screen and (max-width:320px) {
-    .footer__copyright{
+    .footer__copyright {
         padding-left: 16px;
         text-align: left;
         padding-top: 48px;

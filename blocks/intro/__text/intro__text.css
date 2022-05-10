@@ -1,4 +1,4 @@
-.intro__text{
+.intro__text {
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -9,9 +9,8 @@
     padding-bottom: 33px;
 }
 
-
 @media screen and (max-width:320px) {
-    .intro__text{
+    .intro__text {
         text-shadow: none;
     }
 }

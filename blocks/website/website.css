@@ -1,4 +1,4 @@
-.website{
+.website {
     margin: 0;
     grid-area: website;
     width: max-content;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width:320px) {
-    .website{
+    .website {
         max-width: 288px;
         align-self: normal;
         padding-left: 16px;

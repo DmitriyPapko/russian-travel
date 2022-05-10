@@ -1,23 +1,24 @@
-.footer__nav{
-    list-style-type:none;
+.footer__nav {
+    list-style-type: none;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width:768px) {
-    .footer__nav{
+    .footer__nav {
         max-width: 720px;
         padding-left: 24px;
     }
 }
+
 @media screen and (max-width:608px) {
-    .footer__nav{
+    .footer__nav {
         flex-wrap: wrap;
     }
 }
 
 @media screen and (max-width:320px) {
-    .footer__nav{
+    .footer__nav {
         padding-left: 16px;
         flex-wrap: nowrap;
     }

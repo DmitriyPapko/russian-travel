@@ -1,12 +1,12 @@
-.place__container{
-    box-sizing:border-box;
+.place__container {
+    box-sizing: border-box;
     grid-area: place_container;
     margin: 0;
 }
 
 
 @media screen and (max-width:330px) {
-    .place__container{
+    .place__container {
         max-width: 288px;
         margin: 0 auto;
     }

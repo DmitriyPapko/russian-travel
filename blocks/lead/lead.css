@@ -1,29 +1,13 @@
-.lead{
+.lead {
     padding-top: 56px;
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 984px;
     text-align: center;
 }
 
 @media screen and (max-width:1024px) {
 
-    .lead{
+    .lead {
         padding-top: 48px;
-        /* max-width: 90.7vw; */
-        
     }
 }
-
-/* @media screen and (max-width:768px) {
-
-    .lead{
-        max-width: 100vw;        
-    }
-}
-
-@media screen and (max-width:320px) {
-
-    .lead{
-        max-width: 320px;
-    }
-} */

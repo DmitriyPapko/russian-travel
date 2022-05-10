@@ -1,4 +1,4 @@
-.footer__link{
+.footer__link {
     text-decoration: none;
     padding-right: 18px;
     font-style: normal;
@@ -8,17 +8,16 @@
     color: #FFFFFF;
     margin: 0;
 }
-.footer__link:hover{
+
+.footer__link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width:320px) {
-    .footer__link{
+    .footer__link {
         padding-bottom: 32px;
         text-decoration: none;
         font-size: 24px;
         line-height: 24px;
     }
 }
-
-

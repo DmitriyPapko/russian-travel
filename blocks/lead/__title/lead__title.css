@@ -1,4 +1,4 @@
-.lead__title{
+.lead__title {
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -12,21 +12,20 @@
 }
 
 @media screen and (max-width:694px) {
-    .lead__title{
+    .lead__title {
         font-size: 50px;
     }
 }
 
 @media screen and (max-width:371px) {
-    .lead__title{
+    .lead__title {
         font-size: 40px;
     }
 }
 
 @media screen and (max-width:320px) {
-    .lead__title{
+    .lead__title {
         padding-bottom: 16px;
-        font-size: 40px;
         line-height: 44px;
     }
 }
